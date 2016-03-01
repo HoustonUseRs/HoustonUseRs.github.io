@@ -1,6 +1,6 @@
 # How to add a new talk
 
-You can add a talk by appending to the `rTalks` array in `assets/js/topics.js`.
+You can add a talk by appending to the `rTalks` array in [`assets/js/topics.js`](https://github.com/HoustonUseRs/HoustonUseRs.github.io/blob/master/assets/js/topics.js).
 
 For most talks:
 
