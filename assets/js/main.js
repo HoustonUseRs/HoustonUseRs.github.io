@@ -35,9 +35,11 @@
     var headingDOM = document.createElement('h4');
     var pDOM = document.createElement('p');
     var aDOM = document.createElement('a');
+    var divDOM = document.createElement('div');
 
     var topicWrapperDOM = document.createElement('li');
     topicWrapperDOM.classList.add('list-group-item');
+    topicWrapperDOM.classList.add('r-talk');
 
     var partWrapperDOM = pDOM.cloneNode();
 
@@ -67,6 +69,7 @@
       if(topic.slides){
         slidesLinkDOM = aDOM.cloneNode();
         slidesLinkDOM.href = topic.slides;
+        slidesLinkDOM.setAttribute('title','Slides/Notes');
       }
 
       if(topic.title && topic.slides){
@@ -77,7 +80,8 @@
       wrapper.appendChild(topicHeadingDOM);
 
       if(topic.description){
-        descriptionDOM = pDOM.cloneNode();
+        descriptionDOM = divDOM.cloneNode();
+        descriptionDOM.classList.add('r-talk-description');
         descriptionDOM.innerHTML = marked(topic.description);
 
         wrapper.appendChild(descriptionDOM);
@@ -85,11 +89,10 @@
 
       if(topic.meetup){
         meetupLinkDOM = aDOM.cloneNode();
+        meetupLinkDOM.classList.add('r-talk-meetup');
         meetupLinkDOM.href = topic.meetup;
 
-        lastDOM = _.last(wrapper.children);
-
-        _.last(wrapper.children).children[0].appendChild(meetupLinkDOM);
+        _.last(wrapper.children).appendChild(meetupLinkDOM);
       }
 
       return wrapper;

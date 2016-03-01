@@ -1,15 +1,14 @@
 
-#r-talks a[href*=".meetup.com"] {
+.r-talk-meetup {
   position: relative;
   display: inline-block;
 }
-#r-talks a[href*=".meetup.com"]::before {
+.r-talk-meetup::before {
   content: url('../images/meetup.svg');
   position: absolute;
   top: -1.2em;
-  left: 0.5em;
 }
-#r-talks a[href*=".meetup.com"]:hover::before {
+.r-talk-meetup:hover::before {
   content: url('../images/meetup-red.svg');
 }
 
