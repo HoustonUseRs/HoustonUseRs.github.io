@@ -1,0 +1,25 @@
+
+.meetup-link {
+  position: relative;
+  display: inline-block;
+}
+.meetup-link::before {
+  content: url('../images/meetup.svg');
+  position: absolute;
+  top: -1.2em;
+  left: 0.5em;
+}
+.meetup-link:hover::before {
+  content: url('../images/meetup-red.svg');
+}
+
+.useRs-logo {
+  background-image: url('../images/houston-useRs-med.png');
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  background-size: contain;
+}
+.useRs-logo:hover {
+  background-image: url('../images/houston-useRs-nrg.png');
+}
