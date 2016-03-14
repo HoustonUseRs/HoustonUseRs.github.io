@@ -15,6 +15,12 @@
 
 var rTalks = [
   {
+    title: 'Production Code in R',
+    slides: './production-code-in-r/',
+    description: 'Hadley Wickam shares his thoughts about production code in R.',
+    meetup: 'http://www.meetup.com/houstonr/events/227950604/',
+    date: 20160301
+  }, {
     title: 'Intro to KnitR',
     slides: './intro-to-knitr/',
     description: 'For literate programming, reproducible research and constructing reports',
