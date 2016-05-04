@@ -2,6 +2,15 @@ a {
   color: #336697;
 }
 
+a:not(.r-talk-meetup):hover,
+a:not(.r-talk-meetup):focus {
+  border-bottom: 1px solid #336697;
+}
+
+a h4 {
+  display: inline-block;
+}
+
 .r-talk-meetup {
   position: relative;
   display: inline-block;

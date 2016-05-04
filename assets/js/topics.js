@@ -15,6 +15,21 @@
 
 var rTalks = [
   {
+    title: 'ggplot2 Themes and Unit Testing',
+    description: ' ',
+    meetup: 'http://www.meetup.com/houstonr/events/228848273/',
+    parts: [{
+      title: 'Introduction to ggplot2 Themes',
+      slides: 'http://houstonusers.github.io/hrug_pres_ggtheme',
+      description: 'Boyd shares the whys and hows of ggplot2 theming.  Presentation repo [*here*](https://github.com/bskelton/hrug_pres_ggtheme).'
+    }, {
+      title: 'Unit Testing in R',
+      slides: 'http://www.slideshare.net/egoodwintx/unit-testing-in-r-with-testthat-hrug',
+      description: 'Ed talks about unit testing and using the testthat package.  [*Code*](https://github.com/egoodwintx/hrugtestexample) of test example.'
+    }],
+    date: 20160405
+  },
+  {
     title: 'Production Code in R',
     slides: './production-code-in-r/',
     description: 'Hadley Wickam shares his thoughts about production code in R.',
