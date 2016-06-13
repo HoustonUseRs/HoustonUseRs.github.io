@@ -15,6 +15,21 @@
 
 var rTalks = [
   {
+    title: 'Workflow Series Capstone - Pulling together the pieces',
+    description: ' ',
+    meetup: 'http://www.meetup.com/houstonr/events/230916869/',
+    parts: [{
+      title: 'R Style Guide',
+      slides: 'http://houstonusers.github.io/r-style-guide',
+      description: 'Ju talks about the R style guide.  Presentation repo [*here*](https://github.com/houstonusers/r-style-guide).'
+    }, {
+      title: 'Workflow Series Capstone',
+      slides: '',
+      description: 'Ed guides us on how to pull together all the pieces we\'ve been discussing so far this year to make an HRUG package'
+    }],
+    date: 20160607
+  }
+  {
     title: 'ggplot2 Themes and Unit Testing',
     description: ' ',
     meetup: 'http://www.meetup.com/houstonr/events/228848273/',
