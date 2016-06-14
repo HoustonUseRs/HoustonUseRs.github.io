@@ -28,7 +28,7 @@ var rTalks = [
       description: 'Ed guides us on how to pull together all the pieces we\'ve been discussing so far this year to make an HRUG package'
     }],
     date: 20160607
-  }
+  },
   {
     title: 'ggplot2 Themes and Unit Testing',
     description: ' ',
