@@ -15,6 +15,13 @@
 
 var rTalks = [
   {
+    title: 'useR2016 - Conference Updates',
+    slides: 'http://rpubs.com/vakjha/194071',
+    description: 'Varun recaps and shares his expereience at UseR 2016',
+    meetup: 'http://www.meetup.com/houstonr/events/232109289/',
+    date: 20160705
+  },
+  {
     title: 'Workflow Series Capstone - Pulling together the pieces',
     description: ' ',
     meetup: 'http://www.meetup.com/houstonr/events/230916869/',
