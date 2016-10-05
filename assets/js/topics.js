@@ -15,6 +15,13 @@
 
 var rTalks = [
   {
+    title: 'Natural language processing with R',
+    slides: 'http://www.slideshare.net/egoodwintx/hrug-text-mining-to-construct-causal-models',
+    description: 'Scott shares some of his PhD work using natural language processing to pull useful information out from medical records data. Topics touched upon includes text pre-processing, Bayesian networks, and prediction performance (ROC curves).',
+    meetup: 'https://www.meetup.com/houstonr/events/232829992/',
+    date: 20160802
+  },
+  {
     title: 'useR2016 - Conference Updates',
     slides: 'http://rpubs.com/vakjha/194071',
     description: 'Varun recaps and shares his expereience at UseR 2016',
