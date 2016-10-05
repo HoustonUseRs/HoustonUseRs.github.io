@@ -15,6 +15,21 @@
 
 var rTalks = [
   {
+    title: 'Neuroimaging analysis tools in R',
+    description: ' ',
+    meetup: 'https://www.meetup.com/houstonr/events/232830049/',
+    parts: [{
+      title: 'Neuroimaging Analysis in R: Image Preprocessing',
+      slides: 'https://github.com/emsweene/Houston_R_Users_Talk/blob/master/Presentation.pdf',
+      description: 'Elizabeth gives us a look into the awesome world of neuroimaging analysis with R. The work in this area has obvious applications to medical and neurocognitive research, but beyond that there are solutions to applications to working with big data and image data. Presentation repo [*here*](https://github.com/emsweene/Houston_R_Users_Talk). Youtube [*here*](https://youtu.be/6tDbdNTwEuA)'
+    }, {
+      title: 'Why you should check your BLAS',
+      slides: '',
+      description: 'Neeraj shows us some results from his experiments linking R to different linear algebra libraries. Youtube [*here*](https://youtu.be/UKfqgqt3ahA)'
+    }],
+    date: 20160906
+  },
+  {
     title: 'Natural language processing with R',
     slides: 'http://www.slideshare.net/egoodwintx/hrug-text-mining-to-construct-causal-models',
     description: 'Scott shares some of his PhD work using natural language processing to pull useful information out from medical records data. Topics touched upon includes text pre-processing, Bayesian networks, and prediction performance (ROC curves).',
