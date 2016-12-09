@@ -15,6 +15,13 @@
 
 var rTalks = [
   {
+    title: 'An Introduction to Stan and RStan',
+    slides: 'https://houstonusers.github.io/intro-to-stan-and-rstan/presentation.pdf',
+    description: 'Michael shares a very thorough introduction to a Bayesian workflow in R.  He covers the hows and whys for Bayesian analysis in R including:\n\n1. Bayesian Inference\n\n1. Generalized Linear Mixed Effect Models\n\n1. MCMC Convergence and Model Assessment\n\n1. how to use Stan to apply Bayesian methods\n\n1. and an example of his workflow with financial time series data to run Stochastic Volatility Models.\n\nHis code for this talk can be found [*here*](https://github.com/HoustonUseRs/intro-to-stan-and-rstan/tree/master/code).',
+    meetup: 'https://www.meetup.com/houstonr/events/235256320/',
+    date: 20161206
+  },
+  {
     title: 'Neuroimaging analysis tools in R',
     description: ' ',
     meetup: 'https://www.meetup.com/houstonr/events/232830049/',
