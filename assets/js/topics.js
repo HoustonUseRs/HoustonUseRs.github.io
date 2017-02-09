@@ -15,6 +15,13 @@
 
 var rTalks = [
   {
+    title: 'Intro to ggplot2',
+    slides: 'https://houstonusers.github.io/intro-to-ggplot2/#/',
+    description: 'Amanda Shih introduces ggplot2...talking about its design goals, architecture, and even diving into the source code so you can truly understand what\'s going on under the hood of this really useful package. [Slides](https://houstonusers.github.io/intro-to-ggplot2/#/) [Code](https://houstonusers.github.io/intro-to-ggplot2/workshop.nb)',
+    meetup: 'https://www.meetup.com/houstonr/events/237405341/',
+    date: 20170207
+  },
+  {
     title: 'Lightning Talk - Star Wars Risk Simulation',
     slides: 'https://github.com/KonoAnalytics/BoardGames/blob/master/The%20Battle%20of%20Endor.20170207.pptx',
     description: 'Jonathan Bennett talks about a simulation he created to help him optimize his game strategy for Star Wars Risk',
