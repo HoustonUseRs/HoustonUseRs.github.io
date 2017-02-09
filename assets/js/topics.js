@@ -15,6 +15,20 @@
 
 var rTalks = [
   {
+    title: 'Lightning Talk - Scraping Boardgamegeek.com',
+    slides: 'http://www.slideshare.net/egoodwintx/boardgamegeek-scraping',
+    description: 'Ed walks through a personal project he created to scrape boardgame data from boardgamegeek.com',
+    meetup: 'https://www.meetup.com/houstonr/events/236486569/',
+    date: 20170103
+  },
+  {
+    title: 'Lightning Talk - Scaling and centering data',
+    slides: 'http://www.slideshare.net/egoodwintx/scaling-in-r',
+    description: 'Ed covers the basics of scaling and centering data in R',
+    meetup: 'https://www.meetup.com/houstonr/events/235137398/',
+    date: 20161101
+  },
+  {
     title: 'An Introduction to Stan and RStan',
     slides: 'https://houstonusers.github.io/intro-to-stan-and-rstan/presentation.pdf',
     description: 'Michael shares a very thorough introduction to a Bayesian workflow in R.  He covers the hows and whys for Bayesian analysis in R including:\n\n1. Bayesian Inference\n\n1. Generalized Linear Mixed Effect Models\n\n1. MCMC Convergence and Model Assessment\n\n1. how to use Stan to apply Bayesian methods\n\n1. and an example of his workflow with financial time series data to run Stochastic Volatility Models.\n\nHis code for this talk can be found [*here*](https://github.com/HoustonUseRs/intro-to-stan-and-rstan/tree/master/code).',
