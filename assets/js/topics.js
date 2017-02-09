@@ -15,6 +15,13 @@
 
 var rTalks = [
   {
+    title: 'Lightning Talk - Star Wars Risk Simulation',
+    slides: 'https://github.com/KonoAnalytics/BoardGames/blob/master/The%20Battle%20of%20Endor.20170207.pptx',
+    description: 'Jonathan Bennett talks about a simulation he created to help him optimize his game strategy for Star Wars Risk',
+    meetup: 'https://www.meetup.com/houstonr/events/237405341/',
+    date: 20170207
+  },
+  {
     title: 'Lightning Talk - Scraping Boardgamegeek.com',
     slides: 'http://www.slideshare.net/egoodwintx/boardgamegeek-scraping',
     description: 'Ed walks through a personal project he created to scrape boardgame data from boardgamegeek.com',
