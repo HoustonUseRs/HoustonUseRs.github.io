@@ -14,40 +14,37 @@
 // }
 
 var rTalks = [
-  {
+  { 
     title: 'Intro to ggplot2',
-    slides: 'https://houstonusers.github.io/intro-to-ggplot2/#/',
-    description: 'Amanda Shih introduces ggplot2...talking about its design goals, architecture, and even diving into the source code so you can truly understand what\'s going on under the hood of this really useful package. [Slides](https://houstonusers.github.io/intro-to-ggplot2/#/) [Code](https://houstonusers.github.io/intro-to-ggplot2/workshop.nb)',
     meetup: 'https://www.meetup.com/houstonr/events/237405341/',
-    date: 20170207
+    date: 20170207,
+    parts: [{
+      title: 'Lightning Talk - Star Wars Risk Simulation',
+      slides: 'https://github.com/KonoAnalytics/BoardGames/',
+      description: 'Jonathan Bennett talks about a simulation he created to help him optimize his game strategy for Star Wars Risk. [Slides](https://github.com/KonoAnalytics/BoardGames/blob/master/The%20Battle%20of%20Endor.20170207.pptx) [Code](https://github.com/KonoAnalytics/BoardGames/blob/master/StarWarsRisk.R)',
+    }, {
+      title: 'Intro to ggplot2',
+      slides: 'https://houstonusers.github.io/intro-to-ggplot2/',
+      description: 'Amanda Shih introduces ggplot2...talking about its design goals, architecture, and even diving into the source code so you can truly understand what\'s going on under the hood of this really useful package. [Slides](https://houstonusers.github.io/intro-to-ggplot2/) [Code](https://houstonusers.github.io/intro-to-ggplot2/workshop.nb)',
+    }]
   },
   {
-    title: 'Lightning Talk - Star Wars Risk Simulation',
-    slides: 'https://github.com/KonoAnalytics/BoardGames/blob/master/The%20Battle%20of%20Endor.20170207.pptx',
-    description: 'Jonathan Bennett talks about a simulation he created to help him optimize his game strategy for Star Wars Risk',
-    meetup: 'https://www.meetup.com/houstonr/events/237405341/',
-    date: 20170207
-  },
-    {
     title: 'Dimension Reduction',
-    slides: 'https://docs.google.com/presentation/d/1GiPQu9ohlC79jN8KKcfbV57J9JR_YAb8ghavgEgLru4/edit?usp=sharing',
-    description: 'Sahil Seth will discuss, using PCA (principal component analysis) and MDS (multidimension scaling) as a tool for data exploration and analysis. [Slides](https://docs.google.com/presentation/d/1GiPQu9ohlC79jN8KKcfbV57J9JR_YAb8ghavgEgLru4/edit?usp=sharing) [Code PCA](https://houstonusers.github.io/dimension-reduction/pca_iris.nb) [Code MDS](https://houstonusers.github.io/dimension-reduction/mds.nb)',
     meetup: 'https://www.meetup.com/houstonr/events/236486569/',
-    date: 20170103
-  },
-  {
-    title: 'Lightning Talk - Scraping Boardgamegeek.com',
-    slides: 'http://www.slideshare.net/egoodwintx/boardgamegeek-scraping',
-    description: 'Ed walks through a personal project he created to scrape boardgame data from boardgamegeek.com',
-    meetup: 'https://www.meetup.com/houstonr/events/236486569/',
-    date: 20170103
-  },
-  {
-    title: 'Lightning Talk - Scaling and centering data',
-    slides: 'http://www.slideshare.net/egoodwintx/scaling-in-r',
-    description: 'Ed covers the basics of scaling and centering data in R',
-    meetup: 'https://www.meetup.com/houstonr/events/235137398/',
-    date: 20161101
+    description: '[Notes](http://y3l2n.com/jupyter-blog/2017-01-03-Houston-R-Users.html) from the evening',
+    date: 20170103,
+    parts: [
+      {
+        title: 'Lightning Talk - Scraping Boardgamegeek.com',
+        slides: 'http://www.slideshare.net/egoodwintx/boardgamegeek-scraping',
+        description: 'Ed walks through a personal project he created to scrape boardgame data from boardgamegeek.com'
+      },
+      {
+        title: 'Dimension Reduction',
+        slides: 'https://docs.google.com/presentation/d/1GiPQu9ohlC79jN8KKcfbV57J9JR_YAb8ghavgEgLru4/edit?usp=sharing',
+        description: 'Sahil Seth will discuss, using PCA (principal component analysis) and MDS (multidimension scaling) as a tool for data exploration and analysis. [Slides](https://docs.google.com/presentation/d/1GiPQu9ohlC79jN8KKcfbV57J9JR_YAb8ghavgEgLru4/edit?usp=sharing) [Code PCA](https://houstonusers.github.io/dimension-reduction/pca_iris.nb) [Code MDS](https://houstonusers.github.io/dimension-reduction/mds.nb)'
+      }
+    ]
   },
   {
     title: 'An Introduction to Stan and RStan',
@@ -55,6 +52,13 @@ var rTalks = [
     description: 'Michael shares a very thorough introduction to a Bayesian workflow in R.  He covers the hows and whys for Bayesian analysis in R including:\n\n1. Bayesian Inference\n\n1. Generalized Linear Mixed Effect Models\n\n1. MCMC Convergence and Model Assessment\n\n1. how to use Stan to apply Bayesian methods\n\n1. and an example of his workflow with financial time series data to run Stochastic Volatility Models.\n\nHis code for this talk can be found [*here*](https://github.com/HoustonUseRs/intro-to-stan-and-rstan/tree/master/code).',
     meetup: 'https://www.meetup.com/houstonr/events/235256320/',
     date: 20161206
+  },
+  {
+    title: 'Lightning Talk - Scaling and centering data',
+    slides: 'http://www.slideshare.net/egoodwintx/scaling-in-r',
+    description: 'Ed covers the basics of scaling and centering data in R',
+    meetup: 'https://www.meetup.com/houstonr/events/235137398/',
+    date: 20161101
   },
   {
     title: 'Neuroimaging analysis tools in R',
