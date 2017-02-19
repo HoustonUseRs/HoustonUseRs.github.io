@@ -31,11 +31,7 @@ var rTalks = [
     {
     title: 'Dimension Reduction',
     slides: 'https://docs.google.com/presentation/d/1GiPQu9ohlC79jN8KKcfbV57J9JR_YAb8ghavgEgLru4/edit?usp=sharing',
-    description: 'Sahil Seth will discuss, using PCA (principal component analysis) and MDS (multidimension scaling) 
-      as a tool for data exploration and analysis. '
-      [Slides](https://docs.google.com/presentation/d/1GiPQu9ohlC79jN8KKcfbV57J9JR_YAb8ghavgEgLru4/edit?usp=sharing)
-      [Code PCA](https://houstonusers.github.io/reducing-dimensions/pca_iris.nb)',
-      [Code MDS](https://houstonusers.github.io/reducing-dimensions/mds.nb)',
+    description: 'Sahil Seth will discuss, using PCA (principal component analysis) and MDS (multidimension scaling) as a tool for data exploration and analysis. [Slides](https://docs.google.com/presentation/d/1GiPQu9ohlC79jN8KKcfbV57J9JR_YAb8ghavgEgLru4/edit?usp=sharing) [Code PCA](https://houstonusers.github.io/reducing-dimensions/pca_iris.nb) [Code MDS](https://houstonusers.github.io/reducing-dimensions/mds.nb)',
     meetup: 'https://www.meetup.com/houstonr/events/236486569/',
     date: 20170103
   },
