@@ -15,6 +15,38 @@
 
 var rTalks = [
   {
+    title: 'Intro to ggplot2',
+    description: 'Amanda will lead a discussion and hands-on plotting with ggplot2, the standard in plotting with R. We\'ll study the philosophy and history of the library, and work together to make a simple plot.\n\nThen, we\'ll each get hands-on experience making different plots, theming our plots, and extending components of ggplot2. If we\'re curious, we\'ll even peak into the library\'s code to learn more.',
+    meetup: 'https://www.meetup.com/houstonr/events/237405341/',
+    date: 20170207,
+    parts: [{
+      title: 'Star Wars Risk Slides and Code',
+      slides: 'https://github.com/KonoAnalytics/BoardGames'
+    }, {
+      title: 'Philosophy and history of ggplot2',
+      slides: 'https://houstonusers.github.io/intro-to-ggplot2/'
+    }, {
+      title: 'ggplot2 examples',
+      slides: 'https://houstonusers.github.io/intro-to-ggplot2/workshop.nb'
+    }]
+  },
+  {
+    title: 'Exploring PCA and MDS, reducing (data) dimensions',
+    description: 'We will discuss, using PCA (principal component analysis) and MDS (multidimension scaling) as a tool for data exploration and analysis. Both methods attempt to reduce dimensions of the data but take slightly different approaches. We will walk through various functions in R which enable us to perform the calculations and visualize the results.',
+    meetup: 'https://www.meetup.com/houstonr/events/236486569/',
+    date: 20170103,
+    parts: [{
+      title: 'Notes',
+      slides: 'http://y3l2n.com/jupyter-blog/2017-01-03-Houston-R-Users.html'
+    }, {
+      title: 'Multidimension scaling example',
+      slides: 'https://houstonusers.github.io/dimension-reduction/mds.nb'
+    }, {
+      title: 'PCA on iris data example',
+      slides: 'https://houstonusers.github.io/dimension-reduction/pca_iris.nb'
+    }]
+  },
+  {
     title: 'An Introduction to Stan and RStan',
     slides: 'https://houstonusers.github.io/intro-to-stan-and-rstan/presentation.pdf',
     description: 'Michael shares a very thorough introduction to a Bayesian workflow in R.  He covers the hows and whys for Bayesian analysis in R including:\n\n1. Bayesian Inference\n\n1. Generalized Linear Mixed Effect Models\n\n1. MCMC Convergence and Model Assessment\n\n1. how to use Stan to apply Bayesian methods\n\n1. and an example of his workflow with financial time series data to run Stochastic Volatility Models.\n\nHis code for this talk can be found [*here*](https://github.com/HoustonUseRs/intro-to-stan-and-rstan/tree/master/code).',
